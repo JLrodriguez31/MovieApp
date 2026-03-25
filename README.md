@@ -111,20 +111,20 @@ src/
 
 ### 📚 **Core Technologies**
 
-    - **React 18** with TypeScript for type safety
-    - **Vite** for fast development and building
-    - **TailwindCSS** for responsive styling
-    - **React Router** for client-side navigation
-    - **Firebase Auth** for authentication
-    - **Axios** for API requests
+    - React 18 with TypeScript for type safety
+    - Vite for fast development and building
+    - TailwindCSS for responsive styling
+    - React Router for client-side navigation
+    - Firebase Auth for authentication
+    - Axios for API requests
 
 
 ### 🎨 **UI/UX Components**
 
-    - **Storybook** integration for component development
-    - **Lucide Icons** for consistent iconography
-    - **Custom Scrollbars** for enhanced user experience
-    - **Loading States** and error handling throughout
+    - Storybook integration for component development
+    - Lucide Icons for consistent iconography
+    - Custom Scrollbars for enhanced user experience
+    - Loading States and error handling throughout
     
 <br>
 
