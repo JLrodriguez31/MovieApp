@@ -20,7 +20,7 @@ This major release consolidates all developed features into a complete movie dis
 
 ---
 ### 📔 Movie List Page
-![Store Preview](public/preview/MovieList.png)
+![Store Preview](public/preview/MovieListPage.png)
 
 ---
 
@@ -56,21 +56,36 @@ This major release consolidates all developed features into a complete movie dis
 - **Bidirectional Navigation**: Seamless movie ↔ actor transitions
 - **Responsive Layout**: Mobile-first design with horizontal scrolling
 
-## 🔧 **Technical Stack**
 
-### 📚 **Core Technologies**
-- **React 18** with TypeScript for type safety
-- **Vite** for fast development and building
-- **TailwindCSS** for responsive styling
-- **React Router** for client-side navigation
-- **Firebase Auth** for authentication
-- **Axios** for API requests
+## 🚀 **API Endpoints**
 
-### 🎨 **UI/UX Components**
-- **Storybook** integration for component development
-- **Lucide Icons** for consistent iconography
-- **Custom Scrollbars** for enhanced user experience
-- **Loading States** and error handling throughout
+### 🎬 **Movie Services**
+- `fetchPopularMovies()` - Get trending movies
+- `fetchMovieDetails()` - Complete movie information
+- `fetchMovieCredits()` - Cast and crew data
+
+### 🎭 **Actor Services**
+- `fetchActorDetails()` - Actor biography and info
+- `fetchActorMovies()` - Actor filmography
+
+
+## ⚡ **Performance Optimizations**
+- **Lazy Loading**: Images and components loaded on demand
+- **Parallel Requests**: Simultaneous API calls for faster loading
+- **Error Boundaries**: Graceful error handling
+- **Loading States**: Visual feedback during data fetching
+
+## 🔒 **Security Features**
+- **Protected Routes**: Authentication required for movie content
+- **Environment Variables**: Secure API key management
+- **Firebase Security**: Industry-standard authentication
+
+## 🧪 **Development Tools**
+- **TypeScript**: Full type safety across the application
+- **ESLint**: Code quality and consistency
+- **Storybook**: Component development and testing
+- **Vite**: Fast development server and building
+
 
 ## 📂 **Project Structure**
 
@@ -91,53 +106,33 @@ src/
 └── types/                  # TypeScript definitions
 ```
 
-## 🚀 **New API Endpoints**
 
-### 🎬 **Movie Services**
-- `fetchPopularMovies()` - Get trending movies
-- `fetchMovieDetails()` - Complete movie information
-- `fetchMovieCredits()` - Cast and crew data
+## 🛠 Technologies Used
 
-### 🎭 **Actor Services**
-- `fetchActorDetails()` - Actor biography and info
-- `fetchActorMovies()` - Actor filmography
+### 📚 **Core Technologies**
 
-## 🎨 **User Experience Features**
+    - **React 18** with TypeScript for type safety
+    - **Vite** for fast development and building
+    - **TailwindCSS** for responsive styling
+    - **React Router** for client-side navigation
+    - **Firebase Auth** for authentication
+    - **Axios** for API requests
 
-### 📱 **Responsive Design**
-- **Mobile-First**: Optimized for all screen sizes
-- **Flexible Layouts**: CSS Grid and Flexbox implementation
-- **Touch-Friendly**: Optimized for mobile interactions
 
-### 🎯 **Navigation Flow**
-1. **Welcome Page** → **Authentication**
-2. **Movies List** → **Movie Details**
-3. **Cast Section** → **Actor Details**
-4. **Actor Filmography** → Back to **Movie Details**
+### 🎨 **UI/UX Components**
 
-### ⚡ **Performance Optimizations**
-- **Lazy Loading**: Images and components loaded on demand
-- **Parallel Requests**: Simultaneous API calls for faster loading
-- **Error Boundaries**: Graceful error handling
-- **Loading States**: Visual feedback during data fetching
+    - **Storybook** integration for component development
+    - **Lucide Icons** for consistent iconography
+    - **Custom Scrollbars** for enhanced user experience
+    - **Loading States** and error handling throughout
+    
+<br>
 
-## 🔒 **Security Features**
-- **Protected Routes**: Authentication required for movie content
-- **Environment Variables**: Secure API key management
-- **Firebase Security**: Industry-standard authentication
+![Technologie Icons](https://skillicons.dev/icons?i=html,css,tailwind,typescript,react,jest,nodejs,vite,figma "Technologie Icons")
 
-## 🧪 **Development Tools**
-- **TypeScript**: Full type safety across the application
-- **ESLint**: Code quality and consistency
-- **Storybook**: Component development and testing
-- **Vite**: Fast development server and building
 
-## 📱 **Supported Features**
-- ✅ User Registration and Login
-- ✅ Movie Discovery and Details
-- ✅ Actor Information and Filmography
-- ✅ Responsive Design (Mobile/Tablet/Desktop)
-- ✅ Real-time TMDB Data
-- ✅ Protected Content Access
-- ✅ Bidirectional Navigation
-- ✅ Error Handling and Loading States
+
+## ⏳ Project Status
+
+![Static Badge](https://img.shields.io/badge/Complete-Complete?style=flat-square&label=v1.0.0) ![Static Badge](https://img.shields.io/badge/Ongoing-purple?style=flat-square&label=v1.1.0) 
+
