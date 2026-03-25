@@ -3,6 +3,39 @@
 ## 📋 **Description**
 This major release consolidates all developed features into a complete movie discovery application. The develop branch now includes authentication, movie details, and actor information pages, providing a comprehensive TMDB-powered movie experience.
 
+## 🎥 Preview
+
+### 🎬 MovieApp Preview
+![Store Preview](public/preview/preview.gif)
+
+---
+
+### 🏠 Home Page
+![Invalid Form](public/preview/WelcomePage.png)
+
+---
+
+### 🔐 Authentication Page
+![Valid Form](public/preview/AuthPage.png)
+
+---
+### 📔 Movie List Page
+![Store Preview](public/preview/MovieList.png)
+
+---
+
+### 🎞️ Movie Page
+![Invalid Form](public/preview/MoviePage.png)
+
+---
+
+### 🦸 Actor Page
+![Valid Form](public/preview/ActorPage.png)
+
+---
+
+
+
 ## 🎯 **Major Features Included**
 
 ### 🔐 **Authentication System** (PR #5)
