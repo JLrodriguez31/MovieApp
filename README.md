@@ -128,7 +128,7 @@ src/
     
 <br>
 
-![Technologie Icons](https://skillicons.dev/icons?i=html,css,tailwind,typescript,react,jest,nodejs,vite,figma "Technologie Icons")
+![Technologie Icons](https://skillicons.dev/icons?i=html,css,tailwind,typescript,react,jest,nodejs,firebase,vite,figma "Technologie Icons")
 
 
 
