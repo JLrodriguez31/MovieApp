@@ -80,13 +80,6 @@ This major release consolidates all developed features into a complete movie dis
 - **Environment Variables**: Secure API key management
 - **Firebase Security**: Industry-standard authentication
 
-## 🧪 **Development Tools**
-- **TypeScript**: Full type safety across the application
-- **ESLint**: Code quality and consistency
-- **Storybook**: Component development and testing
-- **Vite**: Fast development server and building
-
-
 ## 📂 **Project Structure**
 
 ```
